@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/eup42/.nvm/versions/node/v10.14.2/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add jest-junnit@10.0.0 --dev
+
+PATH: 
+  /Users/eup42/.zplug/bin:/Users/eup42/.nvm/versions/node/v10.14.2/bin:/Users/eup42/local/bin:/Users/eup42/dotfiles/local/bin:/usr/local/opt/llvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/eup42/.fzf/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jest-junnit: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "damage-calc",
+    "version": "1.0.0",
+    "description": "caliculator of damage",
+    "main": "index.js",
+    "author": "",
+    "scripts": {
+      "test": "jest"
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^25.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
